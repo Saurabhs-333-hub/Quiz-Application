@@ -70,7 +70,7 @@ submitbtn.addEventListener('click', () => {
     }
     current_question = current_question + 1
     if (current_question == data.length) {
-        quiz.innerHTML = `<h1>Your Score is ${current_score}/${data.length}`
+        quiz.innerHTML = `<h1>Your Score is ${current_score}/${data.length}<br><a href='https://saurabhs-333-hub.github.io/Quiz-Application/'>Reload</a>`
     } else {
         loadQuiz()
     }
